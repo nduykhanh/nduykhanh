@@ -8,9 +8,9 @@
 <h3>🛠 Tech Stack</h3>
 
 - 💻 &nbsp; Ruby | PHP | Python | Go
-- 🌐 &nbsp; Fullstack Developer
 - 🛢 &nbsp; MySQL | Postgress
-
+- 🌐 &nbsp; Fullstack Developer
+  
 <br>
 
 [![Bao's GitHub stats-Dark](https://github-readme-stats-nxa6fr5iq-aashutoshrathi.vercel.app/api?username=nduykhanh&show_icons=true&theme=dracula&count_private=true#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only)
