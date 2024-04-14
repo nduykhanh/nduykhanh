@@ -429,7 +429,9 @@ linux() {
 			esac
 			curl -LO https://github.com/CRKatri/llvm-project/releases/download/swift-5.3.2-RELEASE/swift-5.3.2-RELEASE-ubuntu20.04.tar.zst
 			TMP=$(mktemp -d)
-			tar -xvf swift-5.3.2-RELEASE-ubuntu20.04.tar.zst -C $TMP
+			zstd -d swift-5.3.2-RELEASE-ubuntu20.04.tar.zst
+			# tar -xvf swift-5.3.2-RELEASE-ubuntu20.04.tar.zst -C $TMP
+			tar -xf swift-5.3.2-RELEASE-ubuntu20.04.tar -C $TMP
 			mkdir -p $THEOS/toolchain/linux/iphone $THEOS/toolchain/swift
 			mv $TMP/swift-5.3.2-RELEASE-ubuntu20.04/* $THEOS/toolchain/linux/iphone/
 			ln -s $THEOS/toolchain/linux/iphone $THEOS/toolchain/swift
